@@ -6,6 +6,8 @@
   border: 1px solid black;
 
 }
+body{
+}
 .logo{
 
 }
@@ -15,19 +17,52 @@
 }
 .navigation{
   display: inline-block;
+  justify-content: space-around;
+  align-items: center;
 }
 span{
-  margin: 30px;
+  margin: 60px;
 }
 .main{
 display:flex;
-justify-content: center;
+border-with: 5px;
+border-style: solid;
+border-color: black;
 }
 .column.large{
-  display: flex;
+  display: inline-flex;
   width:630;
-  border: 2px solid black;
+  margin: 10px
+  float:left;
+  flex-direction: column;
+  column-count: 1;
+  column-gap: 20px;
+}
+.tuna{
+  background-image: url(resources/images/main.png);
+  background-size: 100%;
+  height: 30%;
+  text-align: center;
+}
+.steak{
+  text-align: center;
+  display:inline-block;
+  image-repeat: no-repeat;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
 
+}
+.backwards{
+  background-image: url(resources/images/fall.png);
+  text-align: center;
+  padding-bottom: 250px;
+  background-size: 50%;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 .bold{
   font-weight: bold;
@@ -35,8 +70,28 @@ justify-content: center;
 .column.medium{
   display: flex;
   width: 300px;
-  border: 2px solid black;
+  margin:10px;
+  float: right;
+  flex-direction: column;
+  margin-bottom: 250px;
+  column-count: 1;
+  column-gap: 20px;
 }
 .border{
-  border: 1px solid black;
+border: 1px solid black;
+}
+.column.small{
+  display: inline-flex;
+  width: 240px;
+  margin:10px;
+  float: right;
+  flex-direction: column;
+  margin-bottom: 250px;
+  column-count: 1;
+  column-gap: 20px;
+}
+.story{
+  font-famly: Georgia;
+  font-size: 17px;
+  color: black;
 }
