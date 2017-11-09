@@ -12,41 +12,34 @@ body{
 
 }
 .my-time{
+  display: block;
   color: MediumAquamarine;
   margin: auto 190px auto 20px;
 }
 .navigation{
-  display: inline-block;
-  justify-content: space-around;
-  align-items: center;
+  display: block;
 }
 span{
   margin: 60px;
 }
 .main{
-display:flex;
-border-with: 5px;
-border-style: solid;
-border-color: black;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
 }
 .large.column {
-  display: inline-flex;
   width:630;
-  margin: 10px
-  float:left;
-  margin: 50px;
-  padding: 30px;
-
+  display: flex;
+  border: 1px solid black
+  position: relative;
 }
+
 .tuna{
   background-image: url(resources/images/main.png);
-  background-size: 100%;
-  text-align: center;
-  display: inline-block;
+  display: flex;
 }
 .steak{
-  text-align: center;
-  display:inline-block;
+  display: inline-block;
   image-repeat: no-repeat;
   font-family: Georgia;
   font-weight: bold;
@@ -56,18 +49,13 @@ border-color: black;
 }
 .backwards{
   background-image: url(resources/images/fall.png);
-  text-align: center;
-  min-height: 250px;
-  background-size: 50%;
-  display: inline-block;
-  width: 100%;
+  display: flex;
 
 }
 .camera{
-background-image: url(resources/images/camera.png);
-min-height: 250px;
-background-size: 50%;
-}
+  background-image: url(resources/images/camera.png);
+  display: flex;
+  }
 .heading{
   font-family: Georgia;
   font-weight: bold;
@@ -78,23 +66,22 @@ background-size: 50%;
   font-weight: bold;
 }
 .medium.column{
-  display: flex;
   width: 300px;
-  margin:10px;
-  float: right;
-  flex-direction: column;
-  margin-bottom: 250px;
+  display: flex;
+  border: 1px solid black
+  position: relative;
 }
-.border{
-border: 1px solid black;
-}
-.column.small{
-  display: inline-flex;
+.small.column, div{
   width: 240px;
-  margin:10px;
-  padding: 50px;
-  float: right;
-
+  display: flex;
+  border: 1px solid black
+  position: relative;
+}
+.cats{
+  display: flex;
+}
+.cookie{
+  display: flex;
 }
 .story {
   font-famly: Georgia;
